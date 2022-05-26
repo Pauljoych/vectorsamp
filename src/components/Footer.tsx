@@ -7,7 +7,15 @@ const Footer: FC = () => {
 		<footer>
 			<div className="sm:flex items-center sm:justify-between p-2 border-t">
 				<div className="flex justify-center sm:items-center sm:justify-start">
-					<p>Dari komunitas untuk komunitas.</p>
+					<div>
+						<p>
+							© 2022 Copyright{' '}
+							<a href="https://github.com/Pauljoych" className=" hover:text-lg">
+								@Pauljoych
+							</a>
+						</p>
+						<p>Dari komunitas untuk komunitas.</p>
+					</div>
 				</div>
 				<div className="flex justify-center sm:items-center sm:justify-end">
 					<a href="https://vectorrp.com">
