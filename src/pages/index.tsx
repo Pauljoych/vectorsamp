@@ -6,8 +6,16 @@ import { FC } from 'react'
 const Home: FC = () => {
 	return (
 		<div>
-			<Header />
-			<Main />
+			<div
+				className="
+        snap-start bg-cover bg-center h-screen
+        bg-[url('../../public/images/home-mobile.png')]
+        md:bg-none
+        xl:bg-[url('../../public/images/home.png')]
+      "
+			>
+				<Header />
+			</div>
 			<Footer />
 		</div>
 	)
