@@ -12,7 +12,7 @@ const Header: FC = () => {
 						<Image src={Logo} width={50} height={50} />
 					</Link>
 				</div>
-				<div className="flex items-center justify-end gap-3">
+				<div className="flex items-center justify-end gap-4">
 					<Link href="/">
 						<a href="">Home ↗</a>
 					</Link>
