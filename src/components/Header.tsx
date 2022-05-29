@@ -12,14 +12,17 @@ const Header: FC = () => {
 						<Image src={Logo} width={50} height={50} />
 					</Link>
 				</div>
-				<div className="flex items-center justify-end gap-4">
-					<Link href="/">
-						<a href="">Home ↗</a>
-					</Link>
-					<Link href="/rules">
-						<a href="">Rules ↗</a>
-					</Link>
-					<a href="https://discord.gg/W2M57Wsbze">Discord ↗</a>
+				<div className="flex items-center justify-end">
+					<div className="flex items-center gap-4 mr-4">
+						<Link href="/">
+							<a href="">Home ↗</a>
+						</Link>
+						<Link href="/rules">
+							<a href="">Rules ↗</a>
+						</Link>
+						<a href="https://discord.gg/W2M57Wsbze">Discord ↗</a>
+					</div>
+					<button className="bg-[#ffe472] rounded-md px-6 py-1 shadow-xl">UCP</button>
 				</div>
 			</div>
 		</header>
